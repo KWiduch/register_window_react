@@ -6,5 +6,5 @@
 * checks if the data is correct before adding it
 
 ### User Interface
-https://raw.github.com/kwiduch/register_window_react/master/{PATH} </br>
+https://raw.github.com/kwiduch/register_window_react/master/public/interfejs.png </br>
 

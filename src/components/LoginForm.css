@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.login {
+  /* border: solid 1px red; */
+  margin-top: 10%;
+  /* min-height: 600px; */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__label {
+  font-weight: 1000;
+  margin-bottom: 10px;
+}
+
+.login__container {
+  display: grid;
+}
+
+.input input,
+.login__submit {
+  background-color: #f4f4f4;
+  border: solid 1px #f4f4f4;
+  width: 290px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  outline: none;
+  /* transition: all ease 1s; */
+}
+
+.input input:hover {
+  border: solid 1px #cccccc;
+  transition: all ease 0.3s;
+  /* z-index: 1; */
+}
+
+.borderTrue input {
+  border: solid 1px #cccccc;
+  transition: all ease 0.3s;
+}
+
+.login__text {
+  color: #5c5e62;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.login__coverPI {
+  display: flex;
+}
+
+.login__infoIcon {
+  color: #5c5e62d5;
+  cursor: pointer;
+}
+
+/* zrobic state boolean i zmienic
+zeby pokazywalo jak sie hoover zrobi */
+.login__infoIconText {
+  display: none;
+}
+.login__infoIconTextActive {
+  display: block;
+  position: absolute;
+  width: 290px;
+  transition: ease all 0.3s;
+  background-color: white;
+  height: 100px;
+  justify-content: center;
+  border: #ffffff solid 1px;
+  border-radius: 5px;
+  box-shadow: -2px 7px 26px 2px rgba(0, 0, 0, 0.18);
+  color: #5c5e62;
+  font-size: 15px;
+  align-content: center;
+  line-height: 0.6cm;
+  text-align: justify;
+  padding: 5px;
+  top: 235px;
+}
+
+.login__textErrors {
+  color: #b74134;
+  font-size: 14px;
+  display: none;
+  width: 290px;
+  margin-top: 5%;
+}
+
+.errorShowUp {
+  display: block;
+}
+
+.login__submit {
+  /* czesc css w inputcss */
+  margin-top: 13%;
+  transition: 0.3s all ease;
+  color: #ffffff;
+  font-weight: 600;
+  background-color: rgb(62, 106, 225);
+}
+
+.login__submit:hover {
+  background-color: #3457b1;
+}
+
+@media (min-width: 700px) {
+  .login__infoIconTextActive {
+    top: 230px;
+  }
+}
+
+@media (min-width: 800px) {
+  .login__infoIconTextActive {
+    top: 260px;
+  }
+}
+@media (min-width: 900px) {
+  .login__infoIconTextActive {
+    top: 285px;
+  }
+}
+@media (min-width: 1300px) {
+  .login__infoIconTextActive {
+    top: 320px;
+  }
+}
+@media (min-width: 1400px) {
+  .login__infoIconTextActive {
+    top: 330px;
+  }
+}

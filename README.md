@@ -7,5 +7,5 @@
 * also works for smaller screens
 
 ### User Interface
-https://github.com/KWiduch/register_window_react/blob/main/public/interfejs.png?raw=true </br>
+[!picture](https://github.com/KWiduch/register_window_react/blob/main/public/interfejs.png?raw=true) </br>
 
